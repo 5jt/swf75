@@ -28,8 +28,7 @@ Tables in q represent the expedition state handily, leaving one free to concentr
 The script [`swf.q`](swf.q) is already considerably more ambitious than its 1974 ancestor, and manages to stumble through the first few days of expedition time.
 
 The script represents the lead climbing party making a route to the next camp.
-
-The next step is movement orders to bring climbers and porters up behind them. 
+The function `day` advances the clock one day and returns the new state.
 
 ```q
 ❯ q swf.q
@@ -47,6 +46,17 @@ climbers haps porters sleep tent food gear o2
 0        0    0       0     0    0    0    0
 0        0    0       0     0    0    0    0
 0        0    0       0     0    0    0    0
+```
+
+Above, on the first day, climbers made 1/3 of the route from Base Camp to Camp 1. 
+
+The next development step is movement orders to bring climbers and porters up behind them. 
+
+An implicit challenge is to retain the array-programming style, avoiding loops and other control structures. 
+
+The Scan and Over iterators suffice to cycle through the days of expedition time.
+
+```q
 q)5 day/S
 climbers haps porters sleep tent food gear o2
 ----------------------------------------------
@@ -63,7 +73,7 @@ climbers haps porters sleep tent food gear o2
 Community Action Nepal
 ----------------------
 
-Please consider maing a donation to [Community Action Nepal](https://www.canepal.org.uk/)
+Please consider making a donation to [Community Action Nepal](https://www.canepal.org.uk/)
 
 
 Contact
