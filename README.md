@@ -1,6 +1,8 @@
 Laying siege to Everest
 =======================
 
+
+
 The 1975 British Everest Expedition set out to climb the biggest mountain in the world by its hardest route, the South West Face. It was among the last of the ‘siege’ expeditions, with 18 climbers, 60 porters, and 30 tons of equipment. It was led by [Chris Bonington](https://www.bonington.com/), a former army officer, who used a computer program to help plan the formidable logistics. 
 
 His logistics worked. The expedition put (at that time) more climbers on the summit, by the hardest route, and in the shortest time. 
@@ -28,6 +30,34 @@ The script [`swf.q`](swf.q) is already considerably more ambitious than its 1974
 The script represents the lead climbing party making a route to the next camp.
 
 The next step is movement orders to bring climbers and porters up behind them. 
+
+```q
+❯ q swf.q
+KDB+ 4.0 2020.08.03 Copyright (C) 1993-2020 Kx Systems
+m64/ 12()core 65536MB sjt mackenzie.local 127.0.0.1 EXPIRE 2021.05.27 stephen@kx.com #59875
+
+"Logistics, British Everest Expedition, 1975"
+q)day S
+climbers haps porters sleep tent food gear o2
+----------------------------------------------
+18       26   34      50    3098 3734 915  888
+0        0    0       0     0    0    153  0
+0        0    0       0     0    0    0    0
+0        0    0       0     0    0    0    0
+0        0    0       0     0    0    0    0
+0        0    0       0     0    0    0    0
+0        0    0       0     0    0    0    0
+q)5 day/S
+climbers haps porters sleep tent food gear o2
+----------------------------------------------
+14       26   34      50    346  416  68   100
+4        0    0       20    2752 3258 954  788
+0        0    0       0     0    0    46   0
+0        0    0       0     0    0    0    0
+0        0    0       0     0    0    0    0
+0        0    0       0     0    0    0    0
+0        0    0       0     0    0    0    0
+```
 
 
 Community Action Nepal
