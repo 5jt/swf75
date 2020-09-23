@@ -41,4 +41,5 @@ Prize pot
 Anyone can donate to the prize pot and be listed as a donor. The pot currently stands at £350, donated by
 
 * The [British APL Association](https://britishaplassociation.org/)
+* [Optima Systems](https://optima-systems.co.uk/)
 * Stephen Taylor, author of the 1974 program 
