@@ -8,8 +8,8 @@ R:([]                                                                          /
   o2:       0  48  384   0 192 144 120;                                        /   oxygen supply
   food:     0 800 2650  28 168  80   8;                                        /   food and fuel
   sleep:   50  20   40   4   8   4   2;                                        /   accommodation with full tentage
-  loads:    0  35   35  35  30  30  20;                                        /   Sherpa load capacity to this camp
-  loadc:    0  24   24  24  20  20  20;                                        /   climber load capacity to this camp
+  loads:    0  35   35  35  30  30  20;                                        /   porter load capacity (p163)
+  loadc:    0  24   24  24  20  20  20;                                        /   climber load capacity (p164)
   climb:    4   4    4   4   4   4   2;                                        /   # lead climbers to reach (p173)
   fail:     0  10   10  10  20  40  40 %100 )                                  /   % of carries that fail (p164)
 

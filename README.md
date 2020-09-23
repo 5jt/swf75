@@ -1,9 +1,17 @@
-Laying siege to Everest
-=======================
+Besieging Everest
+=================
 
 
 
-The 1975 British Everest Expedition set out to climb the biggest mountain in the world by its hardest route, the South West Face. It was among the last of the ‘siege’ expeditions, with 18 climbers, 60 porters, and 30 tons of equipment. It was led by [Chris Bonington](https://www.bonington.com/), a former army officer, who used a computer program to help plan the formidable logistics. 
+
+[![Mount Everest](https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/Panoramique_mont_Everest.jpg/1280px-Panoramique_mont_Everest.jpg)](https://en.wikipedia.org/wiki/Mount_Everest)
+
+This repository announces a [coding competition](competition.md) in the [q programming language](https://code.kx.com) for the benefit of [Community Action Nepal](https://canepal.org.uk).
+
+
+Background
+----------
+The [1975 British Everest Expedition](https://en.wikipedia.org/wiki/1975_British_Mount_Everest_Southwest_Face_expedition#Preparations) set out to climb the biggest mountain in the world by its hardest route, the South West Face. It was among the last of the ‘siege’ expeditions, with 18 climbers, 60 porters, and 24 tons of equipment. It was led by [Chris Bonington](https://www.bonington.com/), a former army officer, who used a computer program to help plan the formidable logistics. 
 
 His logistics worked. The expedition put (at that time) more climbers on the summit, by the hardest route, and in the shortest time. 
 
@@ -11,7 +19,7 @@ The computer program was written in APL, the ancestor language of q. It was my f
 
 In outline the problem is simple. The final assault on the summit would be made by two climbers from the highest of seven camps: Base Camp and Camps 1-6. (Like coders, mountaineers start counting at zero.) Establishing two climbers at Camp 6 meant building a supply line that would pass upwards food, fuel, gear and oxygen cylinders while also consuming them. The supply chain had to be able to sit out days of bad weather, but the whole thing had to be done in a few weeks between the monsoon and the winter storms. 
 
-The original program was about 150 lines of Sigma APL code, mercifully long vanished. But as I became a more experienced developer, I wondered what it would take to write the program that Chris wanted. And I kept my copy of _Everest The Hard Way_, the book Chris wrote about the expedition, with its appendices full of plans, charts and tables. 
+The original program was about 150 lines of Sigma APL code, mercifully long vanished. But in later years, as I gained experience as a developer, I wondered what it would take to write the program that Chris wanted. And I kept my copy of _Everest The Hard Way_, the book Chris wrote about the expedition, with its appendices full of plans, charts and tables. 
 
 ![Everest The Hard Way](book/cover.jpg)
 ![route to the summit](book/route.jpg)
@@ -21,8 +29,7 @@ The original program was about 150 lines of Sigma APL code, mercifully long vani
 
 2020
 ----
-
-This repo contains the first steps towards a solution, written in the [q programming language](https://code.kx.com/). 
+This repo contains the first steps towards a full solution, written in the [q programming language](https://code.kx.com/). 
 
 Tables in q represent the expedition state handily, leaving one free to concentrate on generating movement orders. 
 The script [`swf.q`](swf.q) is already considerably more ambitious than its 1974 ancestor, and manages to stumble through the first few days of expedition time.
