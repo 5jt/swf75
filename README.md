@@ -6,7 +6,10 @@ Besieging Everest
 
 [![Mount Everest](https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/Panoramique_mont_Everest.jpg/1280px-Panoramique_mont_Everest.jpg)](https://en.wikipedia.org/wiki/Mount_Everest)
 
-This repository announces a [coding competition](competition.md) in the [q programming language](https://code.kx.com) for the benefit of [Community Action Nepal](https://canepal.org.uk).
+A [coding competition](competition.md) in the [q programming language](https://code.kx.com) for the benefit of [Community Action Nepal](https://canepal.org.uk).
+
+_Everest The Hard Way_:
+watch the 45th anniversary [screening and Q&A](https://www.eventbrite.co.uk/e/everest-the-hard-way-45th-anniversary-screening-and-qa-tickets-121337996213?utm_campaign=post_old_publish&utm_medium=email&utm_source=eventbrite&utm_content=shortLinkViewMyEvent) on 2020.09.24. 
 
 
 Background
