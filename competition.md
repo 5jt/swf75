@@ -5,7 +5,9 @@ Competition
 A prize will be awarded for the best expedition logistics model. 
 The award will be made on 24 September 2021, the 46th anniversary of the successful ascent. 
 
-90% of the prize money will be donated to [Community Action Nepal](https://www.canepal.org.uk) (CAN). The remaining 10% will go to the winner, or to CAN, at the winner’s discretion. 
+90% of the prize money will be donated to [Community Action Nepal](https://www.canepal.org.uk) (CAN). 
+
+The remaining 10% will go to the winner, or to CAN, at the winner’s discretion. 
 
 
 Qualifying entries 
@@ -36,7 +38,7 @@ The [requirements](analysis.md) will be frozen on 2021.06.24.
 
 Prize pot
 ---------
-Anyone can donate to the prize pot and be listed here. The pot currently stands at £200, donated by
+Anyone can donate to the prize pot and be listed as a donor. The pot currently stands at £200, donated by
 
 * The [British APL Association](https://britishaplassociation.org/)
 * Stephen Taylor, author of the 1974 program 

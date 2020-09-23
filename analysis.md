@@ -77,14 +77,14 @@ The model does not attempt to represent individuals, who tire and must rest.
 
 Instead it unrealistically assumes individuals are interchangeable and resting can be approximated by making a proportion of people unavailable at any time.
 
-**FIXME**: Introduce rest rates as shown in [Appendix 2](book/appendix2.pdf).
+**FIXME**: Introduce rest rates as shown in [Appendix 2](book/Appendix2.pdf).
 
 
 Display
 -------
 An expedition history for the first 5 days: `h:5 day\S`.
 
-Bonington drew in [Appendix 2 of his book](book/appendix2.pdf) movement charts for his plan and for the actual progress. 
+Bonington drew in [Appendix 2 of his book](book/Appendix2.pdf) movement charts for his plan and for the actual progress. 
 
 Write a function `chart` that takes `h` as its argument and returns a movement chart (text, HTML, SVG…). 
 
