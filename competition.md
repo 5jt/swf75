@@ -30,6 +30,13 @@ The winning entry will be picked by a panel, and judged on
 * aesthetics
 
 
+Judging panel
+-------------
+* Rebecca Kelly, Evangelist, Kx Systems
+* Nick Psaris, author of _Q Tips_ and _Fun Q_
+* Stephen Taylor, librarian, Kx Systems
+
+
 Competition rules and dates
 ---------------------------
 As in real life, requirements change after work starts. 
