@@ -22,17 +22,30 @@ The computer program was written in APL, the ancestor language of q. It was my f
 
 In outline the problem is simple. The final assault on the summit would be made by two climbers from the highest of seven camps: Base Camp and Camps 1-6. (Like coders, mountaineers start counting at zero.) Establishing two climbers at Camp 6 meant building a supply line that would pass upwards food, fuel, gear and oxygen cylinders while also consuming them. The supply chain had to be able to sit out days of bad weather, but the whole thing had to be done in a few weeks between the monsoon and the winter storms. 
 
-The original program was about 150 lines of Sigma APL code, mercifully long vanished. But in later years, as I gained experience as a developer, I wondered what it would take to write the program that Chris wanted. And I kept my copy of _Everest The Hard Way_, the book Chris wrote about the expedition, with its appendices full of plans, charts and tables. 
+
+A partial solution
+------------------
+
+> In my innocence I had originally imagined that the computer would be able to tell me how to plan the expedition, an illusion which I suspect is shared by most laymen. Whilst planning our 1972 expedition, [Ian McNaught Davis](https://en.wikipedia.org/wiki/Ian_McNaught-Davis "Wikipedia"), a climbing friend of mine and managing director of [Comshare](https://en.wikipedia.org/wiki/Geac_Computer_Corporation "Wikipedia"), had suggested that we might like to use one of his computers to help in planning. Because the expedition had been organised in such a rush, we had been unable to make full use of this facility; it had, however, shown me its value as a means, not so much of finding the perfect logistic answer, but of checking out one’s own planning thinking.
+> 
+> In the spring of 1975 Ian McNaught Davis once again offered his help making available one of his programmers, Stephen Taylor, and through the spring and early summer we played out a series of computer games, simulating the movement of men and supplies up the mountain. We never actually reached the top, since we always seemed to get stuck in a logistic bottleneck round about the time that Camp 4 was established, the reason being that I was moving my men and supplies by intuition rather than by logic based on a clearcut formula. 
+> 
+> — _Everest The Hard Way_, p169
+
+That original program was about 150 lines of Sigma APL code, mercifully long vanished. But in later years, as I gained experience as a developer, I ocasionally wondered what it would take to write the program that Chris wanted. And I kept my copy of _Everest The Hard Way_, the book Chris wrote about the expedition, with its appendices full of plans, charts and tables. 
 
 ![Everest The Hard Way](book/cover.jpg)
+<br>
+<small>_Everest The Hard Way_</small>
+
 ![route to the summit](book/route.jpg)
 <br>
-<small>_Everest The Hard Way_, and route to the summit</small>
+<small>Route to the summit</small>
 
 
-2020
-----
-This repo contains the first steps towards a full solution, written in the [q programming language](https://code.kx.com/). 
+45 years on
+-----------
+This repo contains the first steps towards a full solution, written in the [q programming language](https://code.kx.com/), a modern programming language derived from APL. 
 
 Tables in q represent the expedition state handily, leaving one free to concentrate on generating movement orders. 
 The script [`swf.q`](swf.q) is already considerably more ambitious than its 1974 ancestor, and manages to stumble through the first few days of expedition time.
@@ -82,12 +95,10 @@ climbers haps porters sleep tent food gear o2
 
 Community Action Nepal
 ----------------------
-
 Please consider making a donation to [Community Action Nepal](https://www.canepal.org.uk/)
 
 
 Contact
 -------
-
 Stephen Taylor [stephen@kx.com](mailto:stephen@kx.com)
 
